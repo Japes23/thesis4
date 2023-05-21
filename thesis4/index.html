@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <!--BootStrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+    <!--Font Awesome Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1bce45b9f.js" crossorigin="anonymous"></script>
+    <!--CSS Link-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="title">
+        <header>
+          <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid logo">
+              <img src="images/kumpas.png" class="kumpas" alt="kumpas">
+              <h2>Kumpas</h2>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                <ul class="navbar-nav navigation-bar">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.php">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </header>
+      </section>
+      <section id="body">
+          <div class="row container">
+            <center><h1 class="welcome">Welcome to Kumpas!</h1></center>
+            <div class="col about">
+              <p class="quote">Sign language is the equal of speech, lending itself equally to the rigorous and the poetic, to philosophical analysis or to making love.</p>
+              <p class="author">-Oliver Sacks</p>
+              <a href="login.php"><button type="button" class="btn btn-dark login-btn">Login</button></a>
+            </div>
+            <div class="col video">
+              <video controls autoplay loop plays-inline class="asl-video">
+                <source src="images/ASL-Video.mp4" type="video/mp4">
+              </video>
+            </div>
+        </section>
+      <section id="goal-section">
+        <div class="row goal-container">
+          <h1 class="goal">What Do We Aim For?</h1>
+          <div class="col-lg-4 goal-col">
+            <i class="fa-solid fa-hands-asl-interpreting icon"></i>
+            <h3>To develop a device that converts sign language to text.</h3>
+          </div>
+          <div class="col-lg-4 goal-col">
+            <i class="fa-solid fa-ear-deaf icon"></i>
+            <h3>To address communication problems of deaf-mute people.</h3>
+          </div>
+          <div class="col-lg-4 goal-col">
+            <i class="fa-solid fa-brain icon"></i>
+            <h3>To integrate our learning by helping other people.</h3>
+          </div>
+        </div>
+      </section>
+      <section id="about-section">
+          <div class="row about-container">
+            <h1 class="about-us">About Us</h1>
+            <p class="about-content">Hello everyone, we are Rex Cedric C. Camia, John Patrick D. Manaig and John Carlo G. Tingson 4th year BS Computer Engineering students from De La Salle University - Dasmarinas. The sole purpose of this web application is for the wearable glove device translator for the hearing and speaking impaired individuals. In this website, the users/patients will be able to see the translation/interpretation depending on the sign language that the glove they wear. Each letter in the American Sign Language except J and Z corresponds to different phrases that are uttered by the hearing and speaking impaired patients. Our group aims to bridge the communication gap between the hearing and speaking impaired and non-impaired individuals, since not all are knowledgeable with sign languages that are used by these patients, therefore, we have created and developed a device in which it can translate a letter from the American Sign Language into a phrase.</p>
+            <div class="col">
+              <img class="contact-pic" src="images/rex.jpg" alt="rex.jpg">
+              <h2 class="contact-name">Rex Cedric C. Camia</h2>
+            </div>
+            <div class="col">
+              <img class="contact-pic" src="images/jp.jpg" alt="jp.jpg">
+              <h2 class="contact-name">John Patrick D. Manaig</h2>
+            </div>
+            <div class="col">
+              <img class="contact-pic" src="images/carlo.png" alt="carlo.jpg">
+              <h2 class="contact-name">John Carlo G. Tingson</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.tableone {
+    width: 700px;
+    margin-top: 10px;
+}
+
+.tabletwo {
+    margin-top: 10px;
+    width: 700px;
+}
+
+@media(max-width: 450px) {
+    .tableone {
+        width: 420px;
+        margin: 10px 55px;
+    }
+
+    .tabletwo {
+        width: 420px;
+        margin: 10px 55px;
+    }
+
+}

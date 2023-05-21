@@ -1,0 +1,74 @@
+* {
+    color: white;
+}
+
+.username{
+    color: black;
+}
+
+#password{
+    color: black;
+}
+
+#password2{
+    color: black;
+}
+
+.form {
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgabtput5k7eiq5byUTj3ZdO_Rk8PofxntCg&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto 350px;
+}
+
+.success {
+    padding-top: 50px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #109834;
+    background-image: url(https://cdn.wallpapersafari.com/31/61/O2hMub.jpg);
+    padding-bottom: 50px;
+    border-radius: 30px;
+    width: 800px;
+    text-align: center;
+}
+
+.home-btn {
+    width: 120px;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: rgb(13, 110, 253);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .home-btn:hover {
+        background: rgb(39, 209, 209);
+        color: rgb(12, 55, 118);
+    }
+
+.submit_btn {
+    color: white;
+    background: rgb(9, 111, 6);
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    border: 10px;
+}
+.box{
+    color: black;
+}
+
+    .submit_btn:hover {
+        background: rgb(106, 191, 45);
+        color: white;
+    }
